@@ -1,0 +1,38 @@
+{
+  "name": "less-plugin-import",
+  "version": "1.0.0",
+  "description": "less plugin for enhance @import rule",
+  "main": "./lib/index",
+  "keywords": [
+    "less",
+    "import",
+    "@import"
+  ],
+  "author": "littleprincewdk <2889110370@qq.com>",
+  "repository": "https://github.com/littleprincewdk/less-plugin-import",
+  "homepage": "https://github.com/littleprincewdk/less-plugin-import#readme",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint:script": "eslint . --ext '.js' --report-unused-disable-directives",
+    "lint-fix:script": "npm run lint:script -- --fix"
+  },
+  "peerDependencies": {
+    "less": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "jest": "^26.6.3",
+    "less": "^3.13.0",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2"
+  }
+}
